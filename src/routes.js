@@ -1,15 +1,20 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
+import DashboardPage from './pages/DashboardPage';
 
 function Routes() {
   return (
     <Router>
       <Switch>
-        <Route path='/'>
-          <h1>landing page</h1>
+        <Route path='/' exact>
+          <LandingPage />
         </Route>
-        <Route path='/login'>
-          <h1>Login</h1>
+        <Route path='/about'>
+          <h1>About</h1>
+        </Route>
+        <Route path='/dashboard'>
+          <DashboardPage />
         </Route>
         <Route path='/home'>
           <h1>Dashboard</h1>
