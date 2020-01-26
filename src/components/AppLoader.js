@@ -1,10 +1,10 @@
 import React from 'react';
 import LoaderStyle from '../styles/LoaderStyle';
 
-function GlobalContentLoader() {
+function AppLoader() {
   return (
     <LoaderStyle data-sc-for='Loader'>
-      <div id='globalContentLoaderBlock' className='loader'>
+      <div id='appLoader' className='loader'>
         <div className='spinner '>
           <div className='right-side'>
             <div className='bar'></div>
@@ -14,11 +14,11 @@ function GlobalContentLoader() {
           </div>
         </div>
         <div className='loaderMessageBlock'>
-          <p className='loaderMessage'>Remember to get up and take a nap.</p>
+          <p className='loaderMessage'>Loading the app for first time use.</p>
         </div>
       </div>
     </LoaderStyle>
   );
 }
 
-export default GlobalContentLoader;
+export default AppLoader;
