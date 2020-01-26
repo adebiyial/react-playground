@@ -3,7 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 function GlobalSideNav() {
   const [topics] = useState([
-    { name: 'modal', url: '/dashboard/modal' },
+    { name: 'basic modal', url: '/dashboard/modal' },
+    { name: 'animated modal', url: '/dashboard/modal' },
+    { name: 'stacked modal', url: '/dashboard/modal' },
     { name: 'loader', url: '/dashboard/loader' },
     { name: 'toast notification', url: '/dashboard/toast_notification' }
   ]);
