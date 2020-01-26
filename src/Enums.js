@@ -1,9 +1,11 @@
 const modalEnums = {
-  deleteModal: 'delete'
+  deleteModal: 'delete',
+  createModal: 'create'
 };
 
 const modalPositionEnums = {
-  center: 'center'
+  center: 'center',
+  right: 'right'
 };
 
 export { modalEnums, modalPositionEnums };
