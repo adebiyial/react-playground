@@ -73,8 +73,8 @@ const DashboardPageStyle = styled.section`
   #GlobalContent {
     grid-area: GlobalContent;
 
-    #content {
-      padding: 50px;
+    #globalContentSection {
+      padding: 20px 50px;
     }
   }
 
