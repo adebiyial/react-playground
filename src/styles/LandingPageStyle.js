@@ -49,7 +49,7 @@ const LandingPageStyle = styled.section`
   .globalLanding {
     height: calc(100vh - var(--navHeight) * 5);
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     align-content: center;
     gap: 100px;
 

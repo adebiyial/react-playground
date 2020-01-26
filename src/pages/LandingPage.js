@@ -24,7 +24,7 @@ function LandingPage() {
         </header>
         <section className='globalLanding'>
           <div className='globalLandingStart'>
-            <h1 className='title'>Idle hands build nothing real</h1>
+            <h1 className='title'>Idle hands build nothing that you can call you own</h1>
             <p className='subTitle'>
               I experiment with these things every now and then. These are things I usually need in an app I'm building,
               and since I'm not building a <em>framework</em>, design changes, it'd be nice to have a common denominator
