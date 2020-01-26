@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import GlobalContentLoader from './GlobalContentLoader';
+import Modal from './Modal';
 
 function GlobalContent() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,7 +24,7 @@ function GlobalContent() {
           <h1>Dashboard...</h1>
         </Route>
         <Route path='/dashboard/modal'>
-          <h1>modal</h1>
+          <Modal />
         </Route>
         <Route path='/dashboard/loader'>
           <h1>loader</h1>
