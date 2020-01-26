@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function GlobalSideNav() {
-  const [topics, setTopics] = useState([
-    { name: 'modal', url: 'modal' },
-    { name: 'loader', url: 'loader' },
-    { name: 'toast notification', url: 'toast_notification' }
+  const [topics] = useState([
+    { name: 'modal', url: '/dashboard/modal' },
+    { name: 'loader', url: '/dashboard/loader' },
+    { name: 'toast notification', url: '/dashboard/toast_notification' }
   ]);
 
   return (
