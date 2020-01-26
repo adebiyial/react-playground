@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 const LandingPageStyle = styled.section`
-  --navHeight: 70px;
-
   /* Global Header */
   header.globalHeader {
     height: var(--navHeight, 70px);
